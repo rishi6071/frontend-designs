@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.page-main-caption {
+    font-weight: 500;
+    font-size: 2.3em;
+    letter-spacing: 1px;
+}
+
+.page-main-caption strong {
+    color: rebeccapurple;
+}
+
+.page-sub-caption {
+    color: grey;
+}
+
+.btn-get-started {
+    color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+    font-size: .95em;
+    width: 120px;
+}
+
+.btn-get-started:hover {
+    color: white;
+    background: rebeccapurple;
+}
+
+.page_banner {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    animation-name: banner;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+}
+
+@keyframes banner {
+    from {
+        transform: translateY(12px);
+    }
+    to {
+        transform: translateY(-12px);
+    }
+}

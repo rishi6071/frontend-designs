@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+input, textarea, button {
+    border-color: rebeccapurple !important;
+    border-radius: 0 !important;
+}
+
+input, textarea {
+    font-size: smaller !important;
+}
+
+::placeholder {
+    font-size: smaller;
+}
+
+label {
+    font-size: medium;
+    margin-top: 20px;
+    color: rgba(0,0,0,0.7);
+    margin-bottom: 3px;
+}
+
+.btn-reset, .btn-submit {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+.btn-reset {
+    background: transparent;
+    color: rebeccapurple;
+    transition: 0.5s;
+}
+
+.btn-reset:hover {
+    color: white;
+    background: rebeccapurple;
+}
+
+.btn-submit {
+    background: rebeccapurple;
+    color: white;
+}
+
+.btn-submit:hover {
+    color: white;
+}
