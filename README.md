@@ -8,5 +8,5 @@ Created some Frontend Designs mainly [[ bookstore, general-portfolio, coffee-kin
   4. Dexolabs React App 
   5. Basic App Dummy Frontend Design
   
-Author- Rishi Soni
+Author- Rishi Soni,
 Linkedin Profile - https://www.linkedin.com/in/rishi-soni-26847717a/
